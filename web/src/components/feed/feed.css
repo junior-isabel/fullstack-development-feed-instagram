@@ -1,0 +1,47 @@
+
+.feed-item article {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+.feed-item article header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feed-item article header .user-info {
+    display: flex;
+    flex-direction: column;
+}
+.feed-item article header .user-info .author {
+    font-size: 18px;
+    font-weight: 600;
+}
+.feed-item article header .user-info .place {
+    font-size: 13px;
+    color: #888;
+}
+.feed-item article > img {
+    width: 100%;
+}
+.feed-item article footer {
+    padding: 20px;
+}
+.feed-item article footer .actions {
+    margin-bottom: 20px;
+}
+.feed-item article footer .actions img {
+    margin-right: 10px;
+    height: 20px;
+}
+.feed-item article footer p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.feed-item article footer p strong {
+    display: block;
+    color: #444;
+    font-size: 12px;
+    font-style: italic;
+}

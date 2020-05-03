@@ -1,0 +1,14 @@
+.main-header {
+    height: 72px;
+    background-color: #fff;
+}
+.content-header {
+    height: 72px;
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
